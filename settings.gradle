@@ -1,0 +1,4 @@
+// settings.gradle
+
+rootProject.name = "PhotoSyncSMBApp"
+include ':app'

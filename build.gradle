@@ -1,0 +1,23 @@
+// Root-level build.gradle file
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        // Add Android Gradle plugin and Kotlin plugin
+        classpath 'com.android.tools.build:gradle:7.3.0'  // Android Gradle plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"  // Kotlin plugin (optional)
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
